@@ -21,9 +21,9 @@ return fetch("http://localhost:3000/users", {
 	  console.log(object);
 	  
 	})
-	.catch(function (error){
-	  alert("");
-	})
+	//.catch(function (error){
+	  
+	//})
 	});
   
 }

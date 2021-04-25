@@ -1,5 +1,9 @@
-function submitData(name, email){
-  
+
+  function submitData(name, email) {
+    let formData = {
+        name: name,
+        email: email
+    };
 return fetch("http://localhost:3000/users", {
 	method: "POST",
 	headers: {

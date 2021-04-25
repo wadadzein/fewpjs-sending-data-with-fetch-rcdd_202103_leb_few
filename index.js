@@ -1,6 +1,6 @@
 function submitData(name, email){
   
-}	fetch("http://localhost:3000/users", {
+fetch("http://localhost:3000/users", {
 	method: "POST",
 	headers: {
 	"Content-Type": "application/json",
@@ -11,4 +11,4 @@ function submitData(name, email){
 	email
 	})
 	});
-};
+}

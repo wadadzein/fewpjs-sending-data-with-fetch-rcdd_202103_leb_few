@@ -23,7 +23,7 @@ return fetch("http://localhost:3000/users", {
 	})
 	.catch(function (error){
 	  
-	//})
+	})
 	});
   
 }

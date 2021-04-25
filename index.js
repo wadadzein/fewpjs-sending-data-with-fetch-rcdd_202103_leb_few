@@ -1,4 +1,4 @@
-function submitData(){
+function submitData(name, email){
   
 }	fetch("http://localhost:3000/users", {
 	method: "POST",
@@ -7,8 +7,8 @@ function submitData(){
 	"Accept": "application/json"
 	},
 	body: JSON.stringify({
-	name: "Byron",
-	email: "Poodle"
+	name,
+	email
 	})
 	});
 };

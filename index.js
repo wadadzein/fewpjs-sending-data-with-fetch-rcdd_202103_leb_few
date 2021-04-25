@@ -15,7 +15,7 @@ fetch("http://localhost:3000/users", {
 	.then(function(object){
 	  let h2=document.createElement("h2");
 	  h2.innerHTML= object.id;
-	  document.body.appendChild("h2");
+	  document.body.appendChild(h2);
 	  
 	})
 	.catch(function (error){

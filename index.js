@@ -15,7 +15,7 @@ fetch("http://localhost:3000/users", {
 	.then(func)
 	.catch(function (error){
 	  alert("");
-	});
+	})
 	});
   
 }

@@ -12,7 +12,10 @@ fetch("http://localhost:3000/users", {
 	})
 
 	.then(response=>response.json)
-	.then(func)
+	.then(function(object){
+	  let id=object.id;
+	  
+	})
 	.catch(function (error){
 	  alert("");
 	})

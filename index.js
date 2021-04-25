@@ -27,6 +27,6 @@ return fetch("http://localhost:3000/users", {
             document.body.appendChild(h3);
             console.log(error.message);
 	})
-	);
+	;
   
 }

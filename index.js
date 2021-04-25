@@ -10,7 +10,12 @@ fetch("http://localhost:3000/users", {
 	name,
 	email
 	})
-	});
+
 	.then(response=>response.json)
-	.then(function)
+	.then(func)
+	.catch(function (error){
+	  
+	});
+	});
+  
 }

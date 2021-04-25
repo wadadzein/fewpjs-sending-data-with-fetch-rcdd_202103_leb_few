@@ -11,4 +11,6 @@ fetch("http://localhost:3000/users", {
 	email
 	})
 	});
+	.then(response=>response.json)
+	.then(function)
 }

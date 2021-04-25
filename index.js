@@ -13,7 +13,8 @@ fetch("http://localhost:3000/users", {
 
 	.then(response=>response.json)
 	.then(function(object){
-	  let h2=document.
+	  let h2=document.createElement("h2");
+	  h2.inner
 	  
 	})
 	.catch(function (error){

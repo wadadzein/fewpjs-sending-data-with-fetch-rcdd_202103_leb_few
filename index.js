@@ -11,7 +11,9 @@ return fetch("http://localhost:3000/users", {
 	email: email
 	})
 
-	.then(response=>response.json())
+	.then(function(response) {
+          return response.json();
+        })
 	.then(function(object){
 	  let h2=document.createElement("h2");
 	  h2.innerHTML= object.id;
